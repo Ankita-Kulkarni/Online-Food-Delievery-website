@@ -1,0 +1,191 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444444;	
+}
+
+a {
+  text-decoration: none;
+  color: #672E3B;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Satisfy", sans-serif;
+  font-size: 3em;
+}
+.title{
+	color: #800000;
+	 font-weight: 500;
+}
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #88B048;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navbar a i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover, .navbar .active, .navbar li:hover > a {
+  color: #4d0000;
+}
+
+/*--------------------------------------------------------------
+# Restaurants
+--------------------------------------------------------------*/
+.restaurants .box {
+  padding: 50px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+  height: 100%;
+  background-color: #dcdcdc;
+}
+
+.restaurants .box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #b2d732;
+}
+
+.restaurants .box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+  color: #6c665c;
+}
+
+.restaurants .box p {
+  color: #aaaaaa;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.restaurants .box:hover {
+  background: #b2d732;
+  padding: 30px 30px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+.restaurants .box:hover span, .restaurants .box:hover h4, .restaurants .box:hover p {
+  color: #fff;
+}
+
+.restaurants .mark{
+	color: green;
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #fff;
+  color: black;
+  font-size: 13px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: black;
+  position: relative;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer h3 span {
+  color:#D2386C;
+}
+
+
+#footer p {
+  font-size: 12;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+#footer .fa {
+  font-size: 18px;
+  display: inline-block;
+  background: #46423b;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .fa:hover {
+    opacity: 0.7;
+}
+
+#footer .fa-facebook {
+  background: #3B5998;
+  color: white;
+  text-align: center;
+}
+#footer .fa-twitter {
+  background: #55ACEE;
+  color: white;
+    text-align: center;
+}
+
+#footer .fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+#footer .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+#footer .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
