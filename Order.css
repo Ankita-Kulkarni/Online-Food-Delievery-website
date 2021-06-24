@@ -1,0 +1,59 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444444;
+}
+
+a {
+  text-decoration: none;
+  color: #672E3B;
+}
+
+a:hover {
+  color: #898E8C ;/*neutral gray*/
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Satisfy", sans-serif;
+}
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info i{
+		width: 50%;
+  height: 8vh;
+  overflow: hidden;
+  padding: 0;
+font-size: 20px;
+  color: #ffff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #D2386C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.contact .info:hover i {
+  background: #b76ba3;
+  color: #edf1ff;/*brilliant white*/
+}
+
+#submit{
+	text-align:center;
+	padding: 12px 30px;
+	color: black;
+   border: 2px solid #672E3B;
+}
+
+#submit:hover{
+  background: lightgrey;
+  color: black;/*brilliant white*/
+}
+
+
